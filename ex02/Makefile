@@ -7,13 +7,13 @@ _RED = \033[31m
 _END = \033[0m
 _BOLD = \033[1m
 
-NAME = Template
+NAME = Array
 CFLAGS = -Wall -Wextra -Werror -std=c++98
 RM = @rm -rf
 CC = @c++
 DIR = @mkdir -p
 PRINT = @echo
-HEADERS =	iter.hpp
+HEADERS =	Array.hpp
 
 FILES =		main
 
